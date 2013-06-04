@@ -3,6 +3,23 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Injecting through constructors -->
     <bean id="duke"
-          class="com.springinaction.springidol.Juggler" />
+          class="com.springinaction.springidol.Juggler">
+        <constructor-arg value="15"/>
+    </bean>
+
+    <bean id="sonnet29"
+          class="com.springinaction.springidol.Sonnet29"/>
+
+    <bean id="poeticDuke"
+          class="com.springinaction.springidol.PoeticJuggler">
+        <constructor-arg value="15"/>
+        <constructor-arg ref="sonnet29"/>
+    </bean>
+
+    <!-- Creating beans through factory method -->
+    <bean id="stage"
+          class="com.springinaction.springidol.Stage"
+          factory-method="getInstance" />
 </beans>
