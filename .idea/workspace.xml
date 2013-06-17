@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f256b2bf-34e2-4d64-9d24-5807911479a8" name="Default" comment="Added Simple examples:&#10; Constructor injection &#10; Creating beans through factory method">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Auditorium.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-in-action-3rd-edition-book-examples.iml" afterPath="$PROJECT_DIR$/spring-in-action-3rd-edition-book-examples.iml" />
+    <list default="true" id="f256b2bf-34e2-4d64-9d24-5807911479a8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-in-action-3rd-edition-book-examples.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AppTest.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370348610777" ignored="false" />
-    <file path="/Dummy.txt" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126544393" ignored="false" />
+    <file path="/Dummy.txt" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371489204693" ignored="false" />
     <file path="/Performer.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349035524" ignored="false" />
-    <file path="/fragment.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358170502" ignored="false" />
+    <file path="/fragment.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371127536363" ignored="false" />
     <file path="/Juggler.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349338475" ignored="false" />
     <file path="/spring-config.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349379880" ignored="false" />
     <file path="/Main.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358769149" ignored="false" />
     <file path="/App.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349609977" ignored="false" />
-    <file path="/spring-idol.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126341138" ignored="false" />
+    <file path="/spring-idol.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371127761511" ignored="false" />
     <file path="/PoeticJuggler.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358137077" ignored="false" />
     <file path="/Poem.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358157668" ignored="false" />
     <file path="/Sonnet29.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358408563" ignored="false" />
     <file path="/Stage.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370359438257" ignored="false" />
     <file path="/Auditorium.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126287254" ignored="false" />
+    <file path="/Instrumentalilst.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126774589" ignored="false" />
+    <file path="/Instrument.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126813301" ignored="false" />
+    <file path="/Saxophone.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371127546737" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,28 +86,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="18" selection-start="3751" selection-end="3751" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Performer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Performer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-idol.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spring-idol.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="74" selection-start="575" selection-end="575" vertical-scroll-proportion="0.4383057">
+            <state line="40" column="65" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instrumentalilst.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.51079136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instrument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="104" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Saxophone.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="42" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,15 +176,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Juggler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Juggler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -194,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/spring-in-action-3rd-edition-book-examples/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Performer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/PerformanceException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Juggler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
@@ -208,6 +207,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Sonnet29.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Auditorium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" />
       </list>
     </option>
@@ -288,8 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,17 +380,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="275" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8/bin/git.exe" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="299" />
@@ -405,16 +407,16 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="editing.templates" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -500,6 +502,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -526,19 +541,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -611,7 +613,15 @@
       <created>1370365826946</created>
       <updated>1370365826946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added more Simple examples:&#10; Bean scoping&#10; Initializing and destroying beans">
+      <created>1371126634307</created>
+      <updated>1371126634307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added more Simple examples:&#10; Bean scoping&#10; Initializing and destroying beans">
+      <created>1371489179364</created>
+      <updated>1371489179364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -630,7 +640,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33724654" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34098187" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -684,7 +694,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple examples:&#10; Constructor injection &#10; Creating beans through factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more Simple examples:&#10; Bean scoping&#10; Initializing and destroying beans" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -700,6 +710,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added Spring Maven dependency &amp; first example" />
     <MESSAGE value="Simple examples:&#10; Constructor injection &#10; Creating beans through factory method" />
+    <MESSAGE value="Added more Simple examples:&#10; Bean scoping&#10; Initializing and destroying beans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -709,25 +720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Juggler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.3916811" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/PerformanceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Performer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="45" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
@@ -770,9 +762,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="85" selection-start="8946" selection-end="8946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="165" column="85" selection-start="8946" selection-end="8946" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Main.java">
@@ -810,9 +800,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="104" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="575" selection-end="575" vertical-scroll-proportion="0.4383057">
+        <state line="40" column="65" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.51079136">
           <folding />
         </state>
       </provider>
