@@ -21,16 +21,27 @@
     <!-- Creating beans through factory method -->
     <bean id="stage"
           class="com.springinaction.springidol.Stage"
-          factory-method="getInstance" />
+          factory-method="getInstance"/>
 
     <!-- Bean scoping
          prototype - Allows a bean to be instantiated any number of times (once per use) -->
     <bean id="ticket"
-          class="com.springinaction.springidol.Ticket" scope="prototype" />
+          class="com.springinaction.springidol.Ticket" scope="prototype"/>
 
     <!-- Initializing & destroying beans -->
     <bean id="auditorium"
           class="com.springinaction.springidol.Auditorium"
           init-method="turnOnLights"
-          destroy-method="turnOffLights" />
+          destroy-method="turnOffLights"/>
+
+    <!-- Injecting into bean properties -->
+    <bean id="kenny"
+          class="com.springinaction.springidol.Instrumentalilst">
+        <property name="song" value="Jingle Bells"/>
+        <!-- inner bean declaration: -->
+        <property name="instrument">
+            <bean class="com.springinaction.springidol.Saxophone"/>
+        </property>
+    </bean>
+
 </beans>
