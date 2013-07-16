@@ -2,29 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f256b2bf-34e2-4d64-9d24-5807911479a8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/AbstractInstrument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Cymbal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Harmonica.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBandWithMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-in-action-3rd-edition-book-examples.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AppTest.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370348610777" ignored="false" />
-    <file path="/Dummy.txt" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373871956297" ignored="false" />
+    <file path="/Dummy.txt" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373872656664" ignored="false" />
     <file path="/Performer.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349035524" ignored="false" />
-    <file path="/fragment.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371127536363" ignored="false" />
+    <file path="/fragment.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961254748" ignored="false" />
     <file path="/Juggler.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349338475" ignored="false" />
     <file path="/spring-config.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349379880" ignored="false" />
     <file path="/Main.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358769149" ignored="false" />
     <file path="/App.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370349609977" ignored="false" />
-    <file path="/spring-idol.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373872464566" ignored="false" />
+    <file path="/spring-idol.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373964574647" ignored="false" />
     <file path="/PoeticJuggler.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358137077" ignored="false" />
     <file path="/Poem.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358157668" ignored="false" />
     <file path="/Sonnet29.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370358408563" ignored="false" />
     <file path="/Stage.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1370359438257" ignored="false" />
     <file path="/Auditorium.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126287254" ignored="false" />
     <file path="/Instrumentalilst.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126774589" ignored="false" />
-    <file path="/Instrument.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371126813301" ignored="false" />
-    <file path="/Saxophone.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1371127546737" ignored="false" />
+    <file path="/Instrument.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961211704" ignored="false" />
+    <file path="/Saxophone.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961408109" ignored="false" />
     <file path="/pom.xml" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373871646588" ignored="false" />
+    <file path="/OneManBand.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373873242553" ignored="false" />
+    <file path="/Guitar.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961393966" ignored="false" />
+    <file path="/Harminica.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373873655428" ignored="false" />
+    <file path="/Cymbal.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961334502" ignored="false" />
+    <file path="/OneManBandWithMap.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961528889" ignored="false" />
+    <file path="/AbstractInstrument.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961303883" ignored="false" />
+    <file path="/Harmonica.java" changelist="f256b2bf-34e2-4d64-9d24-5807911479a8" time="1373961344369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,25 +103,70 @@
       <file leaf-file-name="spring-idol.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="52" selection-start="1753" selection-end="1796" vertical-scroll-proportion="0.60746">
+            <state line="75" column="30" selection-start="2832" selection-end="2853" vertical-scroll-proportion="0.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Instrument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="26" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.0">
+            <state line="10" column="24" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Main.java">
+      <file leaf-file-name="AbstractInstrument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/AbstractInstrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="8" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cymbal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Cymbal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Harmonica.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Harmonica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Saxophone.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="49" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneManBand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="38" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneManBandWithMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBandWithMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="28" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,21 +192,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/PerformanceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Juggler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/test/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/PoeticJuggler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Poem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Stage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Sonnet29.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Auditorium.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Harminica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/AbstractInstrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Cymbal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Harmonica.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Guitar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBandWithMap.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml" />
       </list>
     </option>
@@ -359,22 +419,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="275" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="138" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="146" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="148" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_015aa71ef18c047ce8509ffb2f9e4bb0e3e73f13/bin/git.exe" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="299" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="971" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="978" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="285" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="150" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="469" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="472" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="146" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -395,6 +455,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springinaction.springidol" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.springinaction.springidol" />
     </key>
@@ -604,7 +667,11 @@
       <created>1373871959881</created>
       <updated>1373871959881</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added example of wiring properties with Spring's p namespace">
+      <created>1373872662178</created>
+      <updated>1373872662178</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -618,20 +685,20 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34471717" sideWeight="0.67112595" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34471717" sideWeight="0.67112595" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67112595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67112595" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50501674" sideWeight="0.6040555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -677,7 +744,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exec-maven-plugin for convenient execution of Main class. Use &quot;mvn exec:java&quot; command to run the main class of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added example of wiring properties with Spring's p namespace" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -695,6 +762,7 @@
     <MESSAGE value="Simple examples:&#10; Constructor injection &#10; Creating beans through factory method" />
     <MESSAGE value="Added more Simple examples:&#10; Bean scoping&#10; Initializing and destroying beans" />
     <MESSAGE value="Added exec-maven-plugin for convenient execution of Main class. Use &quot;mvn exec:java&quot; command to run the main class of the project" />
+    <MESSAGE value="Added example of wiring properties with Spring's p namespace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -704,114 +772,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Main.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Performer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="40" selection-end="84" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Poem.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/concurrent/ConcurrentMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+        <state line="78" column="107" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.5894207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/PoeticJuggler.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="73" column="13" selection-start="3487" selection-end="3487" vertical-scroll-proportion="-0.8236776">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Sonnet29.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+        <state line="99" column="17" selection-start="5193" selection-end="5193" vertical-scroll-proportion="-10.073048">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Stage.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+        <state line="101" column="13" selection-start="4626" selection-end="4626" vertical-scroll-proportion="0.3324937">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Ticket.java">
+    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.24401914">
+        <state line="98" column="28" selection-start="4176" selection-end="4176" vertical-scroll-proportion="0.042821158">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Auditorium.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Cymbal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="241" selection-end="241" vertical-scroll-proportion="0.4473684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="104" selection-end="105" vertical-scroll-proportion="0.24401914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrumentalilst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Juggler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18639798">
+        <state line="9" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Saxophone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="214" selection-end="214" vertical-scroll-proportion="0.3660287">
+        <state line="6" column="49" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Dropbox/java/jdk/x64/jdk1.6.0_26/src.zip!/java/net/URLClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="0" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.29904306">
+        <state line="10" column="24" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/AbstractInstrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+        <state line="8" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="26" selection-start="8108" selection-end="8108" vertical-scroll-proportion="0.0">
+        <state line="10" column="38" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="168" selection-end="168" vertical-scroll-proportion="0.34256926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/Harmonica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/springidol/OneManBandWithMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/springinaction/springidol/spring-idol.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="52" selection-start="1753" selection-end="1796" vertical-scroll-proportion="0.60746">
+        <state line="75" column="30" selection-start="2832" selection-end="2853" vertical-scroll-proportion="0.5">
           <folding />
         </state>
       </provider>

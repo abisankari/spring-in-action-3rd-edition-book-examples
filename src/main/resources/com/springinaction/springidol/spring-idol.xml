@@ -4,6 +4,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Predefined instruments -->
+    <bean id="saxophone" class="com.springinaction.springidol.Saxophone"/>
+    <bean id="guitar" class="com.springinaction.springidol.Guitar"/>
+    <bean id="cymbal" class="com.springinaction.springidol.Cymbal"/>
+    <bean id="harmonica" class="com.springinaction.springidol.Harmonica"/>
+
     <!-- Injecting through constructors -->
     <bean id="duke"
           class="com.springinaction.springidol.Juggler">
@@ -46,10 +52,47 @@
     </bean>
 
     <!-- Wiring properties with Spring's p namespace -->
-    <bean id="kennyClone"
+    <bean id="kenny2"
           class="com.springinaction.springidol.Instrumentalilst"
-        p:song = "Jingle Bells"
-        p:instrument-ref="saxophone"/>
-    <bean id="saxophone" class="com.springinaction.springidol.Saxophone" />
+          p:song="Jingle Bells"
+          p:instrument-ref="saxophone"/>
 
+    <!-- Wiring colections -->
+    <!-- Wiring Lists, Sets, and Arrays -->
+    <bean id="hank"
+          class="com.springinaction.springidol.OneManBand">
+        <property name="instruments">
+            <set>
+                <ref bean="guitar"/>
+                <ref bean="harmonica"/>
+                <!-- duplicates are ignored in set -->
+                <ref bean="harmonica"/>
+                <ref bean="harmonica"/>
+                <!-- -->
+                <ref bean="cymbal"/>
+            </set>
+        </property>
+    </bean>
+    <!-- Wiring Map collection -->
+    <bean id="hankInstrumentMap"
+          class="com.springinaction.springidol.OneManBandWithMap">
+        <property name="instruments">
+            <map>
+                <entry key="GUITAR" value="#{guitar.sound}" />
+                <entry key="CYMBAL" value="#{cymbal.sound}" />
+                <entry key="HARMONICA" value="#{harmonica.sound}" />
+            </map>
+        </property>
+    </bean>
+    <!-- Wiring Properties collection -->
+    <bean id="hankInstrumentProperties"
+          class="com.springinaction.springidol.OneManBandWithMap">
+        <property name="instruments">
+            <props>
+                <prop key="GUITAR">#{guitar.sound}</prop>
+                <prop key="CYMBAL">#{cymbal.sound}</prop>
+                <prop key="HARMONICA">#{harmonica.sound}</prop>
+            </props>
+        </property>
+    </bean>
 </beans>

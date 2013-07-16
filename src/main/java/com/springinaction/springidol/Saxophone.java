@@ -4,9 +4,9 @@ package com.springinaction.springidol;
  * @author YNaidyon
  * @since 6/13/13
  */
-public class Saxophone implements Instrument {
+public class Saxophone extends AbstractInstrument {
     @Override
-    public void play() {
-        System.out.println("TOOT TOOT TOOT");
+    public String getSound() {
+        return "Saxophone's sound: TOOT TOOT TOOT";
     }
 }
