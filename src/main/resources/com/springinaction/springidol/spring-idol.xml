@@ -5,10 +5,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Predefined instruments -->
-    <bean id="saxophone" class="com.springinaction.springidol.Saxophone"/>
-    <bean id="guitar" class="com.springinaction.springidol.Guitar"/>
-    <bean id="cymbal" class="com.springinaction.springidol.Cymbal"/>
-    <bean id="harmonica" class="com.springinaction.springidol.Harmonica"/>
+    <bean id="saxophone" primary="false"
+          class="com.springinaction.springidol.Saxophone"/>
+    <bean id="guitar" primary="true"
+          class="com.springinaction.springidol.Guitar"/>
+    <bean id="cymbal" primary="false"
+          class="com.springinaction.springidol.Cymbal"/>
+    <bean id="harmonica" autowire-candidate="false"
+          class="com.springinaction.springidol.Harmonica"/>
 
     <!-- Injecting through constructors -->
     <bean id="duke"
@@ -95,4 +99,27 @@
             </props>
         </property>
     </bean>
+
+    <!-- Autowiring by name -->
+    <!-- autowire-candidate="false" excludes this instrument from autowiring byType-->
+    <bean id="instrument"
+          autowire-candidate="false"
+          class="com.springinaction.springidol.Saxophone"/>
+    <bean id="kennyAutowiredByName"
+          autowire="byName"
+          class="com.springinaction.springidol.Instrumentalilst">
+        <property name="song" value="Jingle Bells"/>
+    </bean>
+
+    <!-- Autowiring by type
+        If we haven't defined our Instrument beans with only one property
+        primary="true" we can get this error:
+        "Exception in thread "main" org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kennyAutowiredByType' defined in class path resource [com/springinaction/springidol/spring-idol.xml]: Unsatisfied dependency expressed through bean property 'instrument': : No qualifying bean of type [com.springinaction.springidol.Instrument] is defined: expected single matching bean but found 6: saxophone,guitar,cymbal,harmonica,instrument,instrument2; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type [com.springinaction.springidol.Instrument] is defined: expected single matching bean but found 6: saxophone,guitar,cymbal,harmonica,instrument"
+    -->
+    <bean id="kennyAutowiredByType"
+          autowire="byType"
+          class="com.springinaction.springidol.Instrumentalilst">
+        <property name="song" value="Jingle Bells"/>
+    </bean>
+
 </beans>
